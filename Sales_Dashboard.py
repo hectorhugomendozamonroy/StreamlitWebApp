@@ -26,8 +26,8 @@ st.write(
 if st.button("Start Analysis"):
         st.header("Upload Business Data")
         
-        # uploaded_file = "data/sales.csv"
-        data = pd.read_csv("00_jumpstart/data/sales.csv")
+        uploaded_file = True
+        data = pd.read_csv("data/sales.csv")
 
 
 
